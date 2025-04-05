@@ -1,86 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Duck's portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script>
-    <link rel="icon" type="image/x-icon" href="imgs/emo.jpg">
-    <meta property="og:title" content="Lordduck's portfolio">
-    <meta property="og:description" content="A silly individual, who calls themselves a Fullstack developer">
-    <meta property="og:image" content="https://i.postimg.cc/QMwGLCnG/emo.jpg">
-    <meta property="og:url" content="https://lordduck.space/">
-    <meta property="og:type" content="website">
+  <meta charset="UTF-8">
+  <title>1lordduck</title>
+  <link rel="icon" type="image/x-icon" href="./imgs/pfp.jpg">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="1lordduck">
+  <meta property=”og:title” content="1lordduck's cool website!">
+  <meta property="og:url" content="https://lordduck.space/">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="A silly individual, who calls themselves a Fullstack developer">
 </head>
 <body>
-    <div class="overlay" id="overlay">
-        <div class="overlay-content">
-            <h1>Hello! I'm <span class="glow">Lordduck</span>.</h1>
-            <p>A fullstack developer and pentester!</p>
-            <p id="smaller-content-p">Click anywhere to begin...</p>
-        </div>
+<div class="main-container">
+  <div class="bio-container">
+    <div class="bio-header">
+      <img class="bio-image" src="./imgs/pfp.jpg" alt="PFP">
+      <div class="bio-header-text">
+        <p id="username">1lordduck</p>
+        <p id="light-bio"></p>
+      </div>
     </div>
-    <div class="navbar">
-        <a href="github.com/LordDuck02"><p>Github</p></a>
-        <a href="https://www.youtube.com/channel/UCiL6AwGQNmlB8ZA3Zr5O7BA"><p>Youtube</p></a>
+    <ul class="bio-content">
+      <li>Fullstack developer</li>
+      <li>Pentester</li>
+      <li>ASM</li>
+      <li>Java</li>
+      <li>C / C++ / C#</li>
+      <li>HTML / CSS / Javascript</li>
+      <li>Python</li>
+      <li>Lua / Luau</li>
+    </ul>
+    <div class="bio-footer">
+      <div class="footer-item">
+        <a href="https://github.com/LordDuck02"><button class="footer-btn">Github</button></a>
+      </div>
+      <div class="footer-item">
+        <a href="https://www.youtube.com/@Lord_Duck"><button class="footer-btn">Youtube</button></a>
+      </div>
+      <div class="footer-item">
+        <a href="https://en.wikipedia.org/wiki/Extraterrestrial_life"><button class="footer-btn">👽</button></a>
+      </div>
     </div>
-
-    <div class="bio">
-        <p id="b1">A programmer with deep love for cybersecurity and software engineering.</p>
-        <p id="b2">Fullstack developer with 7 years of experience.</p>
-    </div>
-
-    <div class="tools-container">
-        <div class="images-wrapper">
-            <img src="imgs/html.png" data-tooltip="Used for Front-End development" class="minilogo">
-            <img src="imgs/css logo.png" data-tooltip="Used for Front-End development" class="minilogo">
-            <img src="imgs/javascript.png" data-tooltip="Used for Front-End development and simple interactions" class="minilogo">
-            <img src="imgs/tailwin.png" data-tooltip="Used to style the pages easier" class="minilogo">
-            <img src="imgs/python.png" data-tooltip="Mostly used in simple backends" class="minilogo">
-            <img src="imgs/cpp.png" data-tooltip="Also used for web styling" class="minilogo">
-            <img src="imgs/cs.png" data-tooltip="Used mostly for dedicated applications" class="minilogo">
-            <img src="imgs/lua.png" data-tooltip="Used for backend development" class="minilogo">
-            <img src="imgs/java.png" data-tooltip="Used for backend development" class="minilogo">
-        </div>
-        <!-- I'm sorry... I had to use this method.... -->
-        <div class="images-wrapper">
-            <img src="imgs/html.png" data-tooltip="Used for Front-End development" class="minilogo">
-            <img src="imgs/css logo.png" data-tooltip="Used for Front-End development" class="minilogo">
-            <img src="imgs/javascript.png" data-tooltip="Used for Front-End development and simple interactions" class="minilogo">
-            <img src="imgs/tailwin.png" data-tooltip="Used to style the pages easier" class="minilogo">
-            <img src="imgs/python.png" data-tooltip="Mostly used in simple backends" class="minilogo">
-            <img src="imgs/cpp.png" data-tooltip="Also used for web styling" class="minilogo">
-            <img src="imgs/cs.png" data-tooltip="Used mostly for dedicated applications" class="minilogo">
-            <img src="imgs/lua.png" data-tooltip="Used for backend development" class="minilogo">
-            <img src="imgs/java.png" data-tooltip="Used for backend development" class="minilogo">
-        </div>
-    </div>
-
-    <div class="pfp-display">
-        <img id="pfp" src="imgs/emo.jpg">
-        <p id="mobileeasteregg">hi</p>
-    </div>
-
-    <div class="lower">
-        <div class="viewprojects-container">
-            <a href="whatszapp.com">
-                <p id="viewprojects">View projects -></p>
-            </a>
-        </div>
-    </div>
-
-    <div class="lower-2">
-        <div class="musicplayer-container">
-                
-        </div>
-    </div>
-
-    <script>
-        const overlay = document.getElementById('overlay');
-        overlay.addEventListener('click', function() {
-            overlay.classList.add('hidden');
-        });
-    </script>
+  </div>
+</div>
+<script src="main.js"></script>
 </body>
 </html>

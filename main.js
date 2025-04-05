@@ -7,7 +7,7 @@ let isDeleting = false;
 
 let displayText = '';
 
-const texts = [":3", "Hello!", "Is anyone even gonna read this?", "fr fr fr", "I luv3 code xd!!1", "Netflix could lowkey hire me ngl", "always UD", "config buttons png filetype:png google search", "int main() std::cout << 'lol' << std::endl; "];
+const texts = [":3", "Hello!", "Is anyone even gonna read this?", "fr fr fr", "I luv3 code xd!!1", "Netflix could lowkey hire me ngl", "always UD", "config buttons png filetype:png google search", "int main() { std::cout << 'lol' << std::endl; } ", "print('insane')", "*gang signs and code*"];
 let txt = texts[Math.floor(Math.random() * texts.length)];
 
 function typeWriter() {

@@ -57,7 +57,7 @@ body {
     padding: 20px;
     background: var(--glass-bg);
     border-radius: 15px;
-    border: 2px solid var(--white);
+    border: 2px solid #9fe6e6;
     margin-bottom: 20px;
 }
 

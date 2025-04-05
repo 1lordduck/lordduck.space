@@ -37,6 +37,7 @@ body {
 
 .bio-container {
     background: var(--glass-bg2);
+    backdrop-filter: blur(20px);
     border-radius: 20px;
     box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.15);
     width: 100%;

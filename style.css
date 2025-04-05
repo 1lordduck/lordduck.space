@@ -139,3 +139,15 @@ body {
 .footer-btn:focus {
     outline: none;
 }
+
+@media (max-width: 768px) {
+    body {
+        background-size: 110%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-size: 95%;
+    }
+}

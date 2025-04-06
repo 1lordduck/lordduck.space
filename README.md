@@ -3,4 +3,4 @@ Repository that holds the code for "https://lordduck.space/"
 
 # Demo
 
-https://github.com/user-attachments/assets/8a55d7b9-aa9a-4475-b530-e7f28e60af41
+![demo](https://github.com/user-attachments/assets/ae10c31d-2496-4f07-98a7-e6f0fa6af014)
